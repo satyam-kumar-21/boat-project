@@ -1,0 +1,32 @@
+@media screen and (max-device-width: 640px) {
+   body{
+    background-color: red;
+   }
+   .main{
+       width: 90%;
+       height: auto;
+       margin: 3vh 5%;
+   }
+   .header{
+    height: 6vh;
+    width: 100%;
+   }
+   .logo{
+    
+   }
+   .nav{
+    width: 80%;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 10px; */
+   }
+   .nav-bar{
+    font-size: 15px;
+   }
+   .boat-head{
+    display: none;
+    position: absolute;
+    top: 100vh;
+   }
+  }

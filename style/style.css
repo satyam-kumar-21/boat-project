@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+body{
+    /* background: #0f0f10; */
+    background: #0f0f10;
+    width: 100%;
+    height: auto;
+    /* background-color: #050505; */
+}
+.main{
+    width: 80%;
+    height: auto;
+    /* background-color: #de0d0d; */
+    margin: 2.5vh 10%;
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 10%;
+    height: 10vh;
+}
+.logo img{
+    height: 10vh;
+    width: 100%;
+}
+.boat-head{
+    height: 65vh;
+    
+    position: absolute;
+    top: -5vh;
+    left: 15vw;
+}
+.nav{
+    width: 50%;
+    /* height: 10vh; */
+    margin: 0 5% 0 35%;
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    padding: 5px;
+    width: fit-content;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: large;
+}
+.nav-bar:hover{
+    color: white;
+    text-decoration: underline whitesmoke;
+}
+.nav-bar{
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+.on-ear{
+    position: absolute;
+    top: 20vh;
+    right: 20vw;
+}
+.head-content{
+    height: 60vh;
+    width: 25%;
+    margin: 25vh 20% 5vh 55%;
+}
+.head-content h1{
+    color: white;
+    font-weight: 700;
+}
+.head-content h3{
+    color: white;
+    font-weight: 500;
+}
+.head-content p{
+    color: white;
+    font-weight: 500;
+    font-size: large;
+}
+.lock-sign{
+    height: 5vh;
+    width: 94%;
+    background-color: #70707395;
+    margin: 5vh 3%;
+    border-radius: 10px;
+}
+.logo-section{
+    width: 80%;
+    height: 5vh;
+    margin: 10vh 10% 2vh 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-media{
+    height: 5vh;
+    width: 15%;
+    margin: 1vh 0;
+}
+.sp-section{
+    width: 100%;
+    height: 90vh;
+}
+.specs{
+    height: 20vh;
+    width: 100%;
+    margin: 5vh 0;
+}
+.specs img{
+    height: 15Vh;
+    width: 18%;
+    margin: 2.5vh 41% 0vh 41%;
+}
+.specs-main-section{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: baseline;
+}
+.specs-part{
+    height: 60vh;
+    width: 50%;
+    margin: 0vh 0;
+    /* background-color: aqua; */
+}
+.specs-part-right{
+    height: 60vh;
+}
+/* .specs-part-left{
+    display: grid;
+    justify-content: space-between;
+} */
+.specs-part-left{
+   /* background-color: #ffffff; */
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+}
+.fetures{
+    height: 15vh;
+    width: 30%;
+    /* background-color: black; */
+}
+.fetures h6{
+   font-weight: 500;
+   margin-top: 1vh;
+   font-size: small;
+}
+.fetures p{
+    font-weight: 500;
+    font-size: small;
+ }
+ .bt{
+    margin: 0 10% 0 60%;
+ }
+ .mirco{
+    margin: 0 10% 0 60%;
+ }
+ .bat{
+     margin: 0 20% 0 50%;;
+ }
+ .char{
+    margin: 0 20% 0 50%;;
+}
+.main-case-section{
+    height: 75vh;
+    width: 100%;
+}
+.upper-case-image{
+    height: 20vh;
+    width: 100%;
+}
+.upper-case-image img{
+    height: 15Vh;
+    width: 14%;
+    margin: 2.5vh 46% 0vh 46%;
+}
+.buttom-case{
+    height: 55vh;
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.case-part{
+    height: 53vh;
+    width: 40%;
+    margin: 1vh 5%;
+    /* background-color: antiquewhite; */
+}
+.case-part-left img{
+    height: 55vh;
+    width: 100%;
+}
+.case-part-right{
+    padding: 10vh 8% 5vh 5%;
+}
+.case-part-right p{
+    font-weight: 500;
+    font-size: small;
+    line-height: 5vh;
+    letter-spacing: 1px;
+}
+.group-button{
+    height: 6vh;
+    width: 94%;
+    margin: 5vh 3% 0 3%;
+    background-color: rgb(33, 37, 37);
+    border-radius: 10px;
+    padding: 1vh 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.group-button svg{
+    height: 4vh;
+    width: 20%;
+    background: none;
+}
+.group-button p{
+    align-items: center;
+    margin: 1vh 0;
+    background: none;
+}
+.group-button:hover{
+    cursor: pointer;
+}
+.boat-pic{
+    width: 80%;
+   height: 40vh;
+   border-radius: 15px;
+   /* background-color: red; */
+   margin: 5vh 10%;
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(24, 24, 23);
+}
+.boat-pic-part{
+    width: 56%;
+    height: 30vh;
+    margin: 5vh 2%;
+    background-color: rgb(24, 24, 23);
+    /* background-color: green; */
+}
+.boat-pic-part-right img{
+    width: 60%;
+    margin: 0 40% 0 0;
+    height: 30vh;
+    background-color: rgb(24, 24, 23);
+}
+.boat-pic-part-left h4{
+    margin-top: 3vh;
+    background-color: rgb(24, 24, 23);
+
+}
+.boat-pic-part-left p{
+    background-color: rgb(24, 24, 23);
+
+}
+.boat-pic-part-left{
+    margin: 5vh 10%;
+    font-weight: 500;
+    font-size: small;
+    background-color: rgb(24, 24, 23);
+}
+.bag-button{
+    width: 65%;
+    height: 6vh;
+    background-color: rgb(69, 69, 66);
+    padding: 1vh 10%;
+    margin: 3vh 35% 0 0;
+    border-radius: 10px;
+    font-size: larger;
+    display: flex;
+    justify-content: space-around;
+}
+.bag-button svg{
+    height: 4vh;
+    width: 10%;
+    background: none;
+}
+.bag-button:hover{
+    cursor: pointer;
+}
+.bag-button p{
+    background: none;
+}
+.choose{
+    width: 20%;
+    margin: 2vh 40%;
+    height: 20vh;
+}
+.choose-your-style{
+    width: 70%;
+    height: auto;
+    margin: 5vh 15%;
+}
+.choose-style{
+    height: 23vh;
+    width: 25%;
+    margin: 1vh 4%;
+    background-color: rgb(24, 24, 23);
+    float: left;
+    border-radius: 10px;
+}
+.choose-style img{
+    position: relative;
+    top: -5vh;
+    height: 15vh;
+    width: 60%;
+    margin: 0 20%;
+    background: none;
+}
+.choose-style-bag{
+    height: 7vh;
+    width: 90%;
+    margin: 0 5% 3vh 5%;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-around;
+    padding: .5vh 0%;
+    font-size: small;
+    background: none;
+}
+.choose-style-bag svg{
+    width: 15%;
+    height: 5vh;
+    background: none;
+}
+.choose-style-margin{
+    margin-top: 10vh;
+}
+.choose-style .choose-style-bag p{
+    background: none;
+}
+.dummy{
+    width: 100%;
+    height: 60vh;
+}
+.footer{
+    width: 100%;
+    margin-top: 8vh ;
+    height: 40vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.footer-part{
+    width: 20%;
+    height: 35vh;
+    margin: 2.5vh 0;
+    /* border: 2px solid whitesmoke; */
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: small;
+    line-height: 2vh;
+    
+}
+.subscribe{
+    width: 40%;
+    height: 35vh;
+    margin: 2.5vh 0;
+    /* background-color: aqua; */
+}
+.footer-part h4{
+    margin: 3vh 0;
+}
+.footer-logo img{
+    margin-top: 3vh;
+    height: 10vh;
+    width: 30%;
+}
+.subscribe-upper-part{
+    margin: 3vh 10%;
+    height: 8vh;
+    width: 80%;
+    background-color: rgb(69, 69, 66);
+    display: flex;
+    justify-content: baseline;
+    border-radius: 8px;
+}
+.subscribe-upper-part input{
+    height: 7vh;
+    width: 50%;
+    margin: .5vh 0 .5vh 5%;
+    padding: 10px;
+    /* border: .5px solid black; */
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(69, 69, 66);
+    
+}
+.subscribe-button{
+    width: 44%;
+    height: 7vh;
+    margin: .5vh 1% .5vh 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    /* border: .5px solid black; */
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.subscribe-button p{
+    font-weight: 500;
+    /* font-size: small; */
+    text-align: center;
+    margin-top: 2.5vh;
+}
+button:hover{
+    cursor: pointer;
+}
+.subscribe-button, .footer-part p:hover{
+    cursor: pointer;
+}
+.s-media{
+    margin: 4vh 40% 0 10%;
+    height: 6vh;
+    width: 50%;
+    /* background-color: rgb(194, 194, 24); */
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    align-items: center;
+}
+.s-media svg{
+    height: 3.5vh;
+    width: 10%;
+    /* background-color: rgb(69, 69, 66); */
+}
+.s-media svg:hover{
+    cursor: pointer;
+}
